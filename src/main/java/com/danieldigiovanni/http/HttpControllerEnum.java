@@ -1,6 +1,6 @@
 package com.danieldigiovanni.http;
 
-import com.danieldigiovanni.config.controller.HttpControllerFactory;
+import com.danieldigiovanni.factory.controller.HttpControllerFactory;
 
 /**
  * Enum representing types of HTTP controllers.

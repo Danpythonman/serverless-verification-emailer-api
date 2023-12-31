@@ -4,7 +4,7 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPResponse;
-import com.danieldigiovanni.config.controller.HttpControllerFactory;
+import com.danieldigiovanni.factory.controller.HttpControllerFactory;
 import com.danieldigiovanni.http.HttpController;
 import com.danieldigiovanni.http.HttpControllerEnum;
 import lombok.extern.log4j.Log4j2;
